@@ -1,0 +1,50 @@
+a{
+  color: white;
+  text-decoration: none;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+h1{
+  font-family: 'Nanum Pen Script', serif;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+body{
+    width: 1500px;
+}
+#dropdown{
+  list-style: none;
+  height: 40px;
+  width: 1500px;
+  background-color: #000;
+}
+#dropdown ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#dropdown li{
+  float: left;
+  width: 200px;
+  position: relative;
+}
+#dropdown ul ul{
+  position: absolute;
+  display: none;
+}
+#dropdown ul li{
+  background-color: #000;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+}
+#dropdown ul li a{
+  color: white;
+  display: block;
+}
+#dropdown ul li a:hover{
+  background-color: #A0D5E7;
+}
+#dropdown ul li:hover > ul{
+  display: block;
+}
