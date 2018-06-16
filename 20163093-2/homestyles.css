@@ -1,0 +1,46 @@
+a{
+  color: white;
+  text-decoration: none;
+}
+body{
+  width: 1500px;
+}
+#dropdown{
+ height: 40px;
+ width: 1500px;
+ background-color: #000;
+}
+#dropdown ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#dropdown li{
+  float: left;
+  width: 200px;
+  position: relative;
+}
+#dropdown ul ul{
+  position: absolute;
+  display: none;
+}
+#dropdown ul li{
+  background-color: #000;
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  position: relative;
+}
+#dropdown ul li a{
+  color: white;
+  display: block;
+}
+#dropdown ul li a:hover{
+  background-color: #A0D5E7;
+}
+#dropdown ul li:hover > ul{
+  display: block;
+}

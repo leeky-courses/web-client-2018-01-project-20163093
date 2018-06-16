@@ -1,0 +1,15 @@
+$(document).ready(function(){
+  $("#toggle1").click(function(){
+    $("#divBox1").slideToggle("fast");
+  });
+});
+$(document).ready(function(){
+  $("#toggle2").click(function(){
+    $("#divBox2").slideToggle("fast");
+  });
+});
+$(document).ready(function(){
+  $("#toggle3").click(function(){
+    $("#divBox3").slideToggle("fast");
+  });
+});
